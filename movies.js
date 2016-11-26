@@ -10,6 +10,12 @@ function checkIn(age, movieName) {
         "The gods must be crazy": 10,
         sayDate: function(){
             console.log('Movies starts in 5 minutes');
+        },
+        deleteMovie: function(movieName){
+            delete movies[movieName];
+        },
+        getMovies: function(){
+            return this;
         }
 
     };
@@ -34,7 +40,6 @@ function checkIn(age, movieName) {
     }else{
         console.log("Movie is not currently showing");
     }
-
+    return movies;
 }
-
 
