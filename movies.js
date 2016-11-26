@@ -2,7 +2,10 @@ function checkIn(age, movieName) {
     var movies = {
         "Game of throne": 18,
         "Home Alone" :13,
-        "Sponge bob": 6
+        "Sponge bob": 6,
+        sayDate: function(){
+            console.log('Movies starts');
+        }
 
     };
 
