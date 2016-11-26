@@ -3,6 +3,11 @@ function checkIn(age, movieName) {
         "Game of throne": 18,
         "Home Alone" :13,
         "Sponge bob": 6,
+        "The Affair": 21,
+        "Dr Strange": 13,
+        "Spatacus": 21,
+        "Gods of Egypt": 13,
+        "The gods must be crazy": 10,
         sayDate: function(){
             console.log('Movies starts in 5 minutes');
         }
