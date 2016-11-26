@@ -4,7 +4,7 @@ function checkIn(age, movieName) {
         "Home Alone" :13,
         "Sponge bob": 6,
         sayDate: function(){
-            console.log('Movies starts');
+            console.log('Movies starts in 5 minutes');
         }
 
     };
